@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Nitro</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2C2F33;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #23272A;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        .gift-box {
+            margin-bottom: 15px;
+        }
+        .gift-box img {
+            width: 50px;
+        }
+        .accept-btn {
+            background-color: #43B581;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .accept-btn:hover {
+            background-color: #3AA76D;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gift-box">
+            <img src="https://cdn.discordapp.com/attachments/1243481408706711604/1347946147091714160/logonitro.webp?ex=67cdac2d&is=67cc5aad&hm=6411bf5fb1cd0b957ca2aa93cb12fe2c5149159f6ad77399bd54b15464ddc13a&" alt="Nitro Gift">
+        </div>
+        <h3>A WILD GIFT APPEARS!</h3>
+        <p><strong>Nitro</strong></p>
+        <p>Expires in 46 hours</p>
+        <button class="accept-btn" onclick="acceptGift()">ACCEPT</button>
+    </div>
+    
+    <script>
+        function acceptGift() {
+            alert("This gift might be a scam! Always verify the source before accepting Nitro gifts.");
+        }
+    </script>
+</body>
+</html>
